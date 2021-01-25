@@ -1,0 +1,13 @@
+<server>
+    <featureManager>
+        <feature>javaee-8.0</feature>
+        <feature>microProfile-3.3</feature>
+    </featureManager>
+
+    <httpEndpoint
+            httpPort="${default.http.port}"
+            httpsPort="${default.https.port}"
+            id="defaultHttpEndpoint"
+            host="*" />
+
+</server>
