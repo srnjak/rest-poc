@@ -1,16 +1,16 @@
 package com.srnjak.junk.boundary;
 
-import com.srnjak.junk.boundary.dto.Pet;
-
-import javax.ws.rs.POST;
+import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.core.Response;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
-//@Path("myresource")
+@Path("myresource")
 public class MyResource {
 
-//    @POST
-    public Response post(Pet pet) {
-        return Response.ok(pet).build();
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String get() {
+        return "HELLO WORLD!";
     }
 }

@@ -71,7 +71,7 @@
                 <artifactId>liberty-maven-plugin</artifactId>
                 <version>3.2</version>
                 <configuration>
-                    <libertyRuntimeVersion>20.0.0.6</libertyRuntimeVersion>
+                    <libertyRuntimeVersion>20.0.0.7</libertyRuntimeVersion>
                     <serverStartTimeout>60</serverStartTimeout>
                 </configuration>
             </plugin>
