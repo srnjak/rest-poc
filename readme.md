@@ -1,5 +1,9 @@
 # Manual
 
+Build
+
+    mvn package
+
 Start open liberty locally
 
     mvn liberty:start
